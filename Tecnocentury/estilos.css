@@ -1,0 +1,44 @@
+{
+ margin:0;
+ padding:0;
+}
+/* Atributos BASEpara el tamaño y texto de un boton */
+.button {
+	background:#0B0B3B;
+	color:#fff;
+	display:inline-balck;
+	font-size:1.25em;
+	margin:20px;
+	padding:10px 0px;
+	text-align:center;
+	width:200px;
+	text-decoration:none;
+	box-shadow:0px 3px 0px #373c3c;
+	}
+	/* Añade espacios a la derecha del Icono y el texto 
+	dentro de un boton
+	*/
+.button span{
+	margin-right:10px;
+	}
+/* Atributos de colores de botones */	
+.button.blue{
+	background:#3498db;
+	box-shadow:0px 3px 0px #266792;
+	}
+.button.orange{
+	background:#e67e22;
+	box-shadow:0px 3px 0px #b557;
+	}
+	/* Efectos de los bordes */
+.button.radius{
+	border-radius:50px;
+	}
+	/* Si deseo este etilo debe ir al final */
+.button:hover {
+	box-shadow:0px 0px 0px;
+	padding-top:7px;
+	}
+	
+	
+	

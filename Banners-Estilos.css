@@ -1,0 +1,33 @@
+/* banners - secuencia - opacidades */
+
+.banner {
+	width:700px;
+	height:300px;
+	margin:auto;
+	
+	background-size:100% 100%;
+	
+	animation: banner 10s infinite;
+}
+	
+	@keyframes banner{
+		0%, 30% {
+			background-image:url(https://i.imgur.com/PSDtbVm.jpg);
+			opacity:1;
+		}
+		31%,34%{
+			opacity:0.1;
+		}
+	
+		35%, 65% {
+			background-image:url(https://i.imgur.com/KiDxkYx.jpg);
+			opacity:1;
+		}
+		66%,69%{
+			opacity:0.1;
+		}
+		70%, 100% {
+			opacity:1;
+			background-image:url(https://i.imgur.com/OlsdUe8.jpg);
+		}		
+}
